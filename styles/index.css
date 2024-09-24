@@ -1,0 +1,33 @@
+*{
+  font-family: "Montserrat", sans-serif; 
+}
+:root{
+  --primary:#6a07bb;
+  --darkprimary:#480384;
+  --lightprimary:	#7207ca;
+}
+html,body{
+  margin:0px;
+  padding:0px;
+
+}
+.navbar{
+  background: #ccc;
+  padding:20px;
+}
+
+.flex_container{
+  display:flex;
+}
+.justifier_navbar
+{
+  justify-content:space-between;
+}
+a{
+  text-decoration: none !important;
+}
+
+.nav_item{
+  font-weight:bold;
+
+}
