@@ -1,0 +1,8 @@
+ I am a second year undergraduate student currently<br> pursuing 
+             Bachelor's of Computer Engineering in pulchowk Campus, IOE.<br><br>
+
+
+
+             i have home, about me, skill and contact tabs on navbar. i have already made intro and profile image .now how can
+              i add about me section on same page making website scrollabe using html and css only and also make 
+             feature with which we can navigate to about me section text on clikcing about me on navbar.

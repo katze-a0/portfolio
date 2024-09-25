@@ -4,21 +4,23 @@
 :root{
   --primary:#6a07bb;
   --darkprimary:#480384;
-  --lightprimary:	#7207ca;
+  --lightprimary:	#8a5eaf;
 }
 html,body{
   margin:0px;
   padding:0px;
-
+  height: 100vh; /* Set the height of the body to the full viewport height */
+  overflow-y: auto;
 }
 .navbar{
-  background: #ccc;
-  padding:20px;
+  background:#fcfcfc;
+  padding:30px;
 }
 
 .flex_container{
   display:flex;
 }
+
 .justifier_navbar
 {
   justify-content:space-between;
@@ -30,4 +32,50 @@ a{
 .nav_item{
   font-weight:bold;
 
+}
+
+.profile_image{
+  height:300px;
+  width:300px;
+  border-radius:50%;
+  background-color:#e7e7e7;
+  background:url("./../images/monochrome_myphoto1.jpg");
+  background-size:cover;
+  cursor:pointer;
+  transition:all 1.5s;
+  box-shadow: 10px 10px 10px #ccc;
+  border-color:#6a07bb;
+}
+.profile_image:hover{
+  height: 350px;
+  width:350px; 
+}
+.intro_text{
+  color:#434343;
+}
+.primary_button{
+  cursor:pointer;
+  margin:5px;
+  padding:10px;
+  border-radius:10px;
+  background:var(--primary);
+  color:#fff;
+  font-weight:bold;
+  font-size:20px;
+  box-shadow:5px 5px 5px 5px #e1d6f6;
+  transition:all 0.3s;
+}
+.primary_button:hover{
+padding:15px;
+
+}
+
+.logo_image{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  background-color:#e7e7e7;
+  background:url("./../images/B_icon.png");
+  background-size:cover;
+  cursor:pointer;
 }

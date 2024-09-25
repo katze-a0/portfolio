@@ -5,6 +5,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles/index.css" />
+<link rel="stylesheet" href="./styles/about_me.css" />
+<link rel="stylesheet" href="./styles/skill.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+<link rel="icon" href="./images/B_icon.png" 
+          type="image/x-icon">
 <title>
     Bimala Sapkota's portfolio 
 </title>
@@ -13,15 +18,99 @@
 
     <body>
        <div class="navbar flex_container justifier_navbar">
-        <div>Logo</div>
+        <div class="logo_image">
+            </div>
 
         <div>
-     <div class="flex_container"style="gap:30px;" >
+        <div class="flex_container"style="gap:30px;" >
+
         <div class="nav_item"><a href="" style="color:var(--primary)">Home</a></div>
-        <div class="nav_item"><a href="" style="color:var(--primary)">Skills</a></div>
+        <div class="nav_item"><a href="#aboutme_text" style="color:var(--primary)">About Me</a></div>
+        <div class="nav_item"><a href="#skill_section" style="color:var(--primary)">Skills</a></div>
+        <div class="nav_item"><a href="#skill_section" style="color:var(--primary)">Experience</a></div>
         <div class="nav_item"><a href="" style="color:var(--primary)">Contact</a></div>
+       </div>
+       </div>
+    </div>
+
+       <div class="flex_container"
+        style="justify-content:space-between;
+             align-items:center;
+             padding-top:100px;
+             max-width:800px;
+             margin:auto;" >
+       
+        <div class="intro"><span style="font-size:24px;";>Hi, I am </span>
+        <div style="font-weight:bold;color:var(--primary)"> <span style="font-size:60px;">B</span><span style="font-size:40px;">imala Sapkota</span></div>
+        
+        <div class="intro_text">Computer Engineering Student</div>
+        <br>
+        <div><button class="primary_button">Contact Me</button></div> 
+        </div>
+        <div class="profile_image"> </div>
+        </div>
+                  
+        <br><br><br>
+        <div id="aboutme_text">
+            <h2>About me</h2>
+            <p>My introduction</p>
+            <br><br>
+<div class="text">
+         I am a second year undergraduate student currently pursuing 
+         Bachelor's of Computer Engineering in pulchowk Campus, IOE.<br><br>
+         I'm passionate about learning and exploring 
+         the realms of design, web development, and technology. With a strong enthusiasm for fostering
+          communities, I've been an active member of various clubs in college.<br><br>
+            
+          I'm always excited to team up with others on design and web development projects that push 
+          the boundaries of creativity and innovation. When I'm not geeking out over code or design principles,
+           you can find me curled up with a good novel, jamming out to my favorite tunes, or exploring new travel destinations
+        always on the lookout for the next great adventure.
+        </div>
+        </div>
+        <br><br><br><br>
+
+    <div id="skill_section">
+        <h2>My skills</h2>
+        <div class="flex_container" style="background:#fff;justify-content:center;">
+           <div class="box" style="width:25%;margin-right:20px;">
+            <i class="fa-solid fa-pen-nib" style="font-size:35px;color:var(--lightprimary);padding-left:150px;"></i>
+            <br>
+            <div style="font-size:20px;
+                       font-weight:bold;
+                       margin-top:20px;
+                       padding-left:80px;
+                       margin-bottom:20px;">
+                        Graphics Design</div>
+            <div style="font-size:14px;line-height:20px;">
+            I am skilled at designing posters, banners and social media posts using adobe illustrator, figma. I am currently learning Blender 
+            for 3D art work.
+            </div>
+           </div>
+
+           <div class="box" style="width:25%;margin-left:20px;">
+            <i class="fa-brands fa-dev"style="font-size:35px;color:var(--lightprimary);padding-left:150px;"></i>
+            <div style="font-size:20px;
+                        font-weight:bold;
+                        margin-top:20px;
+                        padding-left:80px;
+                        margin-bottom:20px;">
+                        Web Development</div>
+            <div style="font-size:14px;line-height:20px;">
+            I can develop responsive websites using HTML, CSS, Javascript and ReactJs.
+            </div>
+           </div>
+            
 
         </div>
-       </div>
-    </body>
+    </div>
+
+
+           
+
+     
+         
+    
+    
+     </body>
     </html>
