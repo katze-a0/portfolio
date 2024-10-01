@@ -1,0 +1,26 @@
+.experience_container{
+    background:#4a4949;
+   
+}
+
+h2{
+    font-weight:bold;
+    color:var(--primary);
+    font-size:35px;
+    max-width:220px;
+    justify-content:center;
+    transition:all 0.2s;
+
+}
+.content{
+    padding:30px;
+    
+}
+.box_1{
+    padding:40px;
+    background:#fff;
+    border-radius:20px;
+    margin-left:10px;
+    margin-top:40px;
+    
+}

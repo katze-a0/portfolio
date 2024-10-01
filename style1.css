@@ -1,0 +1,66 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(63, 118, 100);
+    font-family: Arial, sans-serif;
+}
+
+/* Carousel Styles */
+
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.item {
+    flex: 0 0 300px;
+    width: 300px;
+    height: 200px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    scroll-snap-align: start;
+}
+
+/* Links Styles */
+
+.links {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.links a {
+    background-color: cadetblue;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0 10px;
+}

@@ -27,6 +27,12 @@ html,body{
 }
 a{
   text-decoration: none !important;
+  color: inherit;
+}
+a:hover {
+  color:#c6dee4; 
+  text-decoration:none; 
+  cursor:pointer;  
 }
 
 .nav_item{
@@ -78,4 +84,13 @@ padding:15px;
   background:url("./../images/B_icon.png");
   background-size:cover;
   cursor:pointer;
+}
+#contact_section{
+  background:#6a07bb;
+  margin:50px;
+  margin-left:5px;
+  margin-bottom:3px;
+  margin-right:3px;
+  padding:50px;
+  
 }

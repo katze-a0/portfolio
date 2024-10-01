@@ -6,3 +6,17 @@
              i have home, about me, skill and contact tabs on navbar. i have already made intro and profile image .now how can
               i add about me section on same page making website scrollabe using html and css only and also make 
              feature with which we can navigate to about me section text on clikcing about me on navbar.
+
+               <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+                <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
